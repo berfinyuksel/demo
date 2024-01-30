@@ -1,5 +1,16 @@
-server.port=8084
 spring:
   security:
-
-
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: Iv1.d0094fbb67827d45
+            clientSecret: e262968d8632dba807912dc3bab62ef7a0fa5993
+          google:
+            clientId: 532877860509-4vlf7jqnu6ee03lmnpttijfarofbl6b9.apps.googleusercontent.com
+            clientSecret: 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
+          facebook:
+            clientId: 222237954213183
+            clientSecret: d39f05a8f9bb156c91114788352d46db
+server:
+  port: 8084
